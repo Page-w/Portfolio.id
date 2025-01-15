@@ -4,7 +4,7 @@
         background-size: cover;
         background-attachment: fixed;
         min-height: 1000px;
-        height: 9950px;
+        height: 11050px;
         justify-content: center;
         align-items: center;
     }
@@ -216,7 +216,7 @@
     }
     
     .tentang {
-        height: 9300px;
+        height: 10000px;
         margin: 0;
     }
     
