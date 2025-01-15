@@ -15,11 +15,14 @@ function gantiTeks() {
 // Jalankan fungsi gantiTeks setiap 2 detik (sesuaikan waktunya)
 setInterval(gantiTeks, 3500);
 
+
+
 window.addEventListener('scroll', function() {
     const button = document.querySelector('.whatsapp-button');
     const scrollPosition = window.scrollY;
 
-    if (scrollPosition >= 400) { // Sesuaikan nilai ini dengan posisi scroll yang diinginkan
+// Sesuaikan nilai ini dengan posisi scroll yang diinginkan
+    if (scrollPosition >= 400) { 
       button.style.opacity = 1;
     } else {
       button.style.opacity = 0;

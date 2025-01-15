@@ -70,3 +70,5 @@
     
     console.log(findLargestPrimeFibonacci(10000));
     
+	const textElement = document.getElementById('WhatsApp');
+	textElement.textContent = 'WhatsApp';
